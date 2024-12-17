@@ -182,8 +182,7 @@ body {
   .slider-img.active .details p, .slider-img.active .details h2{
     display: block;
   }
- 
-  .featured-products .products {
+ .featured-products .products {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -237,7 +236,6 @@ body {
 .browse-btn:hover {
   transform: scale(1.1);
 }
-
 .category-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
