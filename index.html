@@ -370,6 +370,12 @@
     $(this).addClass("active");
   });
 });
+     const toggleButton = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  toggleButton.addEventListener('click', () => {
+    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+  });
   </script>
 </body>
 </html>
