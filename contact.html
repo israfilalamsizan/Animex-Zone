@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-info</title>
+    <link rel="icon" type="Animex Zone" href="Animex Zone Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+  
+      header {
+        background-color: #8b0000;
+        color: #fff;
+        padding: 17px;
+        text-align: center;
+      }
+
+      .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 16px;
+      background-color: #fffdfd;
+      position: fixed;
+      top: 0;
+      width: 98%;
+      z-index: 1000;
+    }
+
+     h1 {
+  font-family: 'Karasha', sans-serif;
+  color: #ffcc00;
+  font-size: 37px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+    }
+
+    .logo {
+      width: 90px;
+    }
+  
+    .owner-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.owner-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.owner-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.owner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.info-button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #8b0000;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #ffcc00;
+  transform: scale(1.05);
+}
+
+.owner-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.owner-item:hover img {
+  transform: scale(1.1);
+}
+
+.owner-item:hover .owner-text {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .owner-section {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #8b0000;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Animex Zone Logo.png" alt="Anime Zone Logo" class="logo">
+    <h2>Owners Of</h2>
+    <h1>ANIMEX ZONE</h1>
+</header>
+    
+  <section class="owner-section">
+    <div class="owner-item" onclick="location.href='#Rajin';">
+        <img src="RAJIN_STAR_Studio_Profile_Picture (1).png" alt="Rajin">
+        <div class="owner-text">Erfan Reza Siddique Rajin</div>
+        <a href="erfan.html" class="info-button">INFO</a>
+    </div>
+    <div class="owner-item" onclick="location.href='#Sizan';">
+        <img src="IMG_8252.JPG" alt="Sizan">
+        <div class="owner-text">Israfil Alam Sizan</div>
+        <a href="sizan.html" class="info-button">INFO</a>
+    </div>
+    <div class="owner-item" onclick="location.href='#Aurko';">
+      <img src="1000012539-01 (1).jpg" alt="Aurko">
+      <div class="owner-text">Samith Ahsan Aurko</div>
+      <a href="aurko.html" class="info-button">INFO</a>
+  </div>
+  </section>
+  <footer>
+        <p>&copy; 2024 Animex Zone | All Rights Reserved | <a href="Index.html">Home</a> </p>
+  </footer>
+</body>
+</html>
