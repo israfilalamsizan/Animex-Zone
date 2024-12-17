@@ -16,68 +16,6 @@ body {
     text-decoration: none;
     color: inherit;
   }
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-        display: none; /* Hide by default */
-    }
-
-    .nav-links li {
-        width: 100%;
-    }
-
-    .nav-links a {
-        padding: 10px;
-        text-align: left;
-        border-bottom: 1px solid #444;
-    }
-
-    .nav-icons {
-        justify-content: flex-start;
-        margin-top: 10px;
-    }
-
-    .slider-container {
-        height: auto; /* Adjust height for smaller screens */
-        flex-direction: column;
-    }
-
-    .slider-images {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .slider-img {
-        width: 100%;
-        height: auto;
-    }
-
-    .featured-products .products {
-        grid-template-columns: repeat(2, 1fr); /* 2 products per row */
-    }
-
-    .product {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .footer-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .category-section {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 10px;
-    }
 .navbar {
   display: flex;
   justify-content: space-between;
