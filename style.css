@@ -43,6 +43,13 @@ body {
   border-radius: 50%;
 }
 
+@font-face {
+  font-family: 'Karasha';
+  src: url('font/Karasha.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .nav-logo h1 {
   font-family: 'Karasha', sans-serif;
   color: #ffcc00;
