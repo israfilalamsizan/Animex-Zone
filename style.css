@@ -16,6 +16,7 @@ body {
     text-decoration: none;
     color: inherit;
   }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -40,13 +41,6 @@ body {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-}
-
-@font-face {
-  font-family: 'Karasha';
-  src: url('font/Karasha.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .nav-logo h1 {
